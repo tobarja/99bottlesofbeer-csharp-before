@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _99BottlesOfBeer
 {
@@ -10,6 +6,8 @@ namespace _99BottlesOfBeer
     {
         static void Main(string[] args)
         {
+            var beerSong = new Song();
+            Console.WriteLine(beerSong.Sing());
         }
     }
 }
